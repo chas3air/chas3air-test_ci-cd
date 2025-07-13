@@ -1,6 +1,6 @@
 module test
 
-go 1.23
+go 1.24.5
 
 require github.com/stretchr/testify v1.10.0
 
