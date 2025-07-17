@@ -21,8 +21,8 @@ jobs:
       - name: Install dependencies
         run: go mod tidy
 
-      - name: Change directory to tests
-        run: cd tests
+      - name: Change directory to funcs
+        run: cd funcs
 
-      - name: Run tests
+      - name: Run funcs
         run: go test -v
